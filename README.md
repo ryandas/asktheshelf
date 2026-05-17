@@ -1,6 +1,6 @@
 # asktheshelf
 
-A RAG-powered chatbot that lets you query your technical book collection using natural language. Ask questions about Data Engineering and Apache Spark — answers are grounded in your PDF library with source citations.
+A RAG-powered chatbot that lets you query your book collection using natural language — answers are grounded in your PDF library with source citations.
 
 ## Stack
 
