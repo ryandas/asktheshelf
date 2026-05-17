@@ -38,7 +38,7 @@ def _filtered_print(*args, **kwargs):
         console.print(*args, **kwargs)
 builtins.print = _filtered_print
 
-books_path = Path(os.environ.get('BOOKS_DIR', '/home/ded/books'))
+books_path = Path(os.environ['BOOKS_DIR'])
 books = list(books_path.glob('*.pdf'))
 
 headers_to_split_on = [
